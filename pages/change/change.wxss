@@ -1,0 +1,40 @@
+@import "../assets/iconfont/iconfont.wxss";
+.lang-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background:black;
+  opacity: .5;
+  border-bottom: 1px solid gray;
+  padding: 20rpx 40rpx;
+  color:gray;
+  font-size: 28rpx;
+}
+
+.item {
+  padding-left: 40rpx;
+  background:black;
+  opacity: .5;
+}
+
+.item-inner {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ececec;
+  padding:  20rpx 40rpx 20rpx 0;
+  
+}
+
+.item .txt {
+  flex: 1;
+}
+
+.item .iconfont {
+  color:wheat;
+} 
+
+.item:nth-child(2) .item-inner {
+  border-top: none;
+}

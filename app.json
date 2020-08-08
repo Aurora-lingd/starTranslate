@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/history/history",
+    "pages/change/change"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1a3251",
+    "navigationBarTitleText": "星星翻译✨",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "position":"bottom",
+    "color":"#595959",
+    "backgroundColor": "#e4e3e3",
+    "selectedColor":"#3282b8",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"翻译",
+        "iconPath":"pages/assets/iconfont/img/translate.png",
+        "selectedIconPath":"pages/assets/iconfont/img/selectTranslate.png"
+      },
+      {
+        "pagePath":"pages/history/history",
+        "text":"历史",
+        "iconPath":"pages/assets/iconfont/img/history.png",
+        "selectedIconPath":"pages/assets/iconfont/img/selectHistory.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

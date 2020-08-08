@@ -1,0 +1,62 @@
+/**index.wxss**/
+@import "../assets/iconfont/iconfont.wxss";
+
+.change{
+  color: #eeeeee;
+  font-size: 26rpx;
+  display: flex;
+  align-items: center;
+  padding: 10rpx 0 10rpx 16rpx;
+}
+.change .icon-xia{
+  font-size: 26rpx;
+}
+.input-area{
+  position: relative;
+  color:white;
+}
+.textare-wrap{
+  background: black;
+  opacity: .5;
+  border-bottom: 10rpx solid #20435f;
+}
+.input-area textarea{
+  color: white;
+  background:black;
+  padding: 30rpx 0 30rpx 30rpx;
+  width: calc(100% - 48rpx);
+  margin: 0;
+  box-sizing: border-box;
+}
+.input-area .icon-shanchu{
+  position: absolute;
+  right: 12rpx;
+  top: 10rpx;
+  z-index: 100;
+  font-size: 34rpx;
+}
+.input-area .text-area{
+  min-height: 80rpx;
+  padding: 48rpx;
+  background: black;
+  opacity: .5;
+}
+.input-area .copy{
+  font-size: 26rpx;
+  position: absolute;
+  bottom: 10rpx;
+  right: 20rpx;
+}
+.input-area .text-title{
+  color:#8995a1 ;
+}
+.input-area .text-result{
+  padding: 20rpx 0;
+}
+.copyright{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+

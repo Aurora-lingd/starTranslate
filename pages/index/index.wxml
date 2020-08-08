@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container" page-index>
+  <view class="change">
+    <navigator url="/pages/change/change" hover-class="navigator-hover" >
+    <text>{{curLang.chs}}</text>
+    <icon class="iconfont icon-xia"></icon>
+    </navigator>
+  </view>
+  <view class="input-area">
+      <icon class="iconfont icon-shanchu" hidden="{{hideClearIcon}}" bindtap="onTabClose" >
+      </icon>
+    <view class="textare-wrap">
+      <textarea placeholder="请输入翻译文本" 
+      placeholder-style="color:#8995a1"
+      bindinput="onInput"
+      bindconfirm="onConfirm"
+      bindblur="onConfirm"
+      value="{{query}}"
+      >
+      </textarea>
+    </view>
+    <view class="text-area">
+      <view class="text-title">译文</view>
+      <view class="text-result" wx:for="{{result}}" wx:key="index" >
+        <text selectable="true">{{item.dst}}</text>
+      </view>
+      <text class="copy" bindtap="onCopy" >复制</text>
+    </view>
+  </view>
+  <view class="copyright">
+    <text>© 星星翻译</text>
+  </view>
+</view>
